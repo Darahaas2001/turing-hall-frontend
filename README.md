@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Turing Hall Frontend - ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Turing Hall Frontend project, a ReactJS application that serves as the frontend for the Turing Hall platform. This README provides instructions on how to set up and run the project effectively.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before you get started, make sure you have the following prerequisites installed on your system:
 
-### `yarn start`
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install) (for React.js dependencies)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone this repository to your local machine:
 
-### `yarn test`
+   ```bash
+   git clone https://github.com/Darahaas2001/turing-hall-frontend.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `yarn build`
+   ```bash
+   cd turing-hall-frontend
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install React.js dependencies using Yarn:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   yarn install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the application using the following command:
 
-### `yarn eject`
+   ```bash
+   yarn start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5. The application will start on port 3000. You can access it in your web browser at [http://localhost:3000](http://localhost:3000).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Backend Code
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The backend code for the Turing Hall platform is available at [Turing Hall Backend Repository](https://github.com/Darahaas2001/turing-hall-backend). Ensure you have the backend set up and running as per its instructions to enable the complete functionality of the Turing Hall platform.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Troubleshooting
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you encounter any issues or have questions, please refer to the project's issue tracker on GitHub for support or to report problems.
